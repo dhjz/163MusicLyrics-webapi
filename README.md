@@ -1,5 +1,5 @@
 ### 163MusicLyrics增加WebApi功能
-- 项目基于`https://github.com/jitwxs/163MusicLyrics`
+- 项目基于[`https://github.com/jitwxs/163MusicLyrics`](https://github.com/jitwxs/163MusicLyrics)
 - 增加WebApi功能，支持通过HTTP请求获取歌曲列表和歌词
 
 ### 接口
