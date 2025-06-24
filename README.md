@@ -24,3 +24,9 @@ Task.Run(() => WebApiStartup.StartWebApi(args));
 
 ### 其他
 - 启动可以添加参数`-p8080`, 指定webapi端口, 默认`43210`
+
+# 其他说明
+- 页面效果图
+- <img src="https://gcore.jsdelivr.net/gh/dhjz/163MusicLyrics-webapi@master/test.jpg" style="width: 340px;"/>
+- <img src="https://gcore.jsdelivr.net/gh/dhjz/163MusicLyrics-webapi@master/listSong.jpg" style="width: 340px;"/>
+- <img src="https://gcore.jsdelivr.net/gh/dhjz/163MusicLyrics-webapi@master/getLyric.jpg" style="width: 340px;"/>
