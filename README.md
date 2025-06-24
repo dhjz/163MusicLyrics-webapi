@@ -17,10 +17,17 @@
 using System.Threading.Tasks;
 
 Logger.Info("Application starting...");
-// 新增下面这一行即可
+
+// window运行新增下面这一行即可
 Task.Run(() => WebApiStartup.StartWebApi(args));
+
+// linux增加下面一行, 然后注释掉主窗口应用, 只启动wepapi, 不然要报错显示设备不存在
+WebApiStartup.StartWebApi(args);
+// BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);
+
 ```
 3. `Program.cs`同目录下新建`WebApiStartup.cs`, 已放到仓库
+4. linux运行时, `MusicLyricAppSetting.json`放入`/用户名/.config/MusicLyricApp/`目录, 里面SearchSource设置为1(则默认为QQ音乐源)
 
 ### 其他
 - 启动可以添加参数`-p8080`, 指定webapi端口, 默认`43210`
